@@ -9,8 +9,9 @@
 #include <vector>
 
 #include "hash_table_helpers.h"
+#include "../../../../external/simple-serializer/serialize.h"
 
-#include <serialize.h>
+//#include <serialize.h>
 
 namespace falconn {
 namespace core {

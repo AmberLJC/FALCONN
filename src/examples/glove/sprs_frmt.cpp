@@ -140,7 +140,7 @@ while (ss >> tmp){
 }
 //cout<<"the vector has "<<arr.size()<<" non-zero value"<<endl;
 p.resize(arr.size()/2);
-for (int i = 0; i < arr.size(); i=i+2) {
+for (unsigned int i = 0; i < arr.size(); i=i+2) {
         p[i/2] = make_pair(arr[i],arr[i+1]);
 //if(i==0) cout<< "insert " << arr[i+1] <<endl; 
 }

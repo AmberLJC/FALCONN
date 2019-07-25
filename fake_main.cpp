@@ -173,7 +173,7 @@ int const THREAD_NUM = 60 ;
  	for(int j = 0 ;j < NUM ; j++ ){// linear scan
             float dis=0;
 
-#pragma omp parallel for num_threads(THREAD_NUM)
+//#pragma omp parallel for num_threads(THREAD_NUM)
 
 	    for(int d = 1 ; d< DIM+1 ; d++) {
 
